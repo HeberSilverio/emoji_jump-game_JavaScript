@@ -1,9 +1,14 @@
 import express from 'express';
 
+import './database/connection';
+
+
 const app = express();
 
-app.get('/users', (_request, response) => {
-   return response.json({ message: 'Hello Word'});
+app.use(express.json());
+
+app.get('/users', (request, response) => {
+      return response.json({ message: 'Hello Word'});
    
 });
 
