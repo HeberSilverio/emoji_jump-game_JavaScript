@@ -1,18 +1,18 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Eu tive o interesse de começar este projeto quando assisti um vídeo do canal do [Felipe Alves](https://www.youtube.com/watch?v=MexDXt11Re8&list=PL1EkVGo1AQ0Hsqhvjm4khfp6innDjpj9J&index=8).
 
-## Available Scripts
+## Meu código
 
-In the project directory, you can run:
+Os códigos estão disponíveis neste repositório
 
-### `yarn start`
+### Linguagem base `JavaScript `
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+A linguagem principal utilizada no desenvolvimento deste game é:.<br />
+JavaScript [ECMAScript 6 / 2015](http://www.ecma-international.org/ecma-262/6.0/) clique no link para ver documentação.
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+Fique à vontade para fazer fork,<br />
+E depois me mostre a sua nova versão.
 
-### `yarn test`
+<!-- ### `yarn test`
 
 Launches the test runner in the interactive watch mode.<br />
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
