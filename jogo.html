@@ -218,6 +218,18 @@
                 ctx.translate(LARGURA / 2, ALTURA / 2);
                 ctx.fillStyle = "#fff";
 
+                if (bloco.score > record)
+                    ctx.fillText("Novo Record!", -150, -65)
+
+                else if (record < 10)
+                    ctx.fillText("Melhor Record " + record, -199, -65);
+
+                else if (record >= 10 && record < 100)
+                    ctx.fillText("Melhor Record " + record, -199, -65);
+                
+                else
+                    ctx.fillText("Melhor Record " + record, -199, -65);
+
                 if (bloco.score < 10)
                     ctx.fillText(bloco.score, -15,  19); 
                 
