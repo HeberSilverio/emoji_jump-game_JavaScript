@@ -6,11 +6,11 @@ Os códigos estão disponíveis neste repositório
 
 ### Linguagem base `JavaScript `
 
-A linguagem principal utilizada no desenvolvimento deste game é:.<br />
-JavaScript [ECMAScript 6 / 2015](http://www.ecma-international.org/ecma-262/6.0/) clique no link para ver documentação.
+A linguagem principal utilizada no desenvolvimento deste game é:<br />
+JavaScript [ECMAScript 6 / 2015](http://www.ecma-international.org/ecma-262/6.0/), clique no link para ver documentação.
 
-Fique à vontade para fazer fork,<br />
-E depois me mostre a sua nova versão.
+Fique à vontade para fazer fork e depois me mostre a sua nova versão.<br />
+
 
 <!-- ### `yarn test`
 
