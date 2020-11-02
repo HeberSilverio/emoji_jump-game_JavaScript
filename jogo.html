@@ -3,7 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <!--<link rel="stylesheet" href="CSS/style.css">; -->
     <title>My engine</title>
+    <script src="Sprite.js" ></script>
     <style>
         canvas {
             position: absolute;
@@ -19,7 +21,7 @@
     <script>
         //variáveis do jogo
         var canvas, ctx, ALTURA, LARGURA, frames = 0, maxPulos = 3, velocidade = 6,
-        estadoAtual, record,
+        estadoAtual, record, img,
 
         estados = {
             jogar: 0,
@@ -178,6 +180,9 @@
             if (record == null)
                 record = 0; 
 
+           img = new Image();
+           img.src = "./imagens/imgFundoNight.png";
+            
             roda();
         }
 
@@ -200,6 +205,7 @@
         function desenha() {
             ctx.fillStyle = "#80daff";
             ctx.fillRect(0, 0, LARGURA, ALTURA);
+             bg.desenha(0, 0);
 
             ctx.fillStyle = "#fff";
             ctx.font = "50px Arial";
