@@ -17,4 +17,3 @@ Fique à vontade para fazer fork e depois me mostre a sua nova versão.<br />
 # Autor
 Desenvolvido por Héber Silvério 👋 Fique a vontade para se conectar
 
-Linkedin Badge
