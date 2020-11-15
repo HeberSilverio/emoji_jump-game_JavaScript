@@ -1,4 +1,4 @@
-# 🎫 Descrição do Projeto 🎫
+# 🎫 Descrição do Projeto 
 
 Eu tive o interesse de começar este projeto quando assisti um vídeo do canal do [Felipe Alves](https://www.youtube.com/watch?v=MexDXt11Re8&list=PL1EkVGo1AQ0Hsqhvjm4khfp6innDjpj9J&index=8).
 
