@@ -1,4 +1,3 @@
- 
     
     //variáveis do jogo
     var canvas, ctx, ALTURA, LARGURA, frames = 0, maxPulos = 3, velocidade = 6,
@@ -32,6 +31,10 @@
         forcaDoPulo: 23.6,
         qntPulos: 0,
         score: 0,
+
+        
+        vidas: 3,
+        colidindo: false,
 
         atualiza: function() {
             this.velocidade += this.gravidade;
@@ -98,8 +101,14 @@
 
                     obs.x -= velocidade;
                     
-                    if (bloco.x < obs.x + obs.largura && bloco.x + bloco.largura >= obs.x && bloco.y + bloco.altura >= chao.y - obs.altura)  
+                    if (bloco.x < obs.x + obs.largura && bloco.x + bloco.largura >= obs.x && bloco.y + bloco.altura >= chao.y - obs.altura) {
+                       if(bloco.vidas >= 1)
+                            bloco.vidas--;
+                        
+                        else 
                         estadoAtual = estados.perdeu;
+                    }  
+                       
 
                     else if (obs.x == 0)
                         bloco.score++;
@@ -187,14 +196,15 @@
     }
 
     function desenha() {
-       //ctx.fillStyle = "#80daff";
-       //ctx.fillRect(0, 0, LARGURA, ALTURA);
+       ctx.fillStyle = "#80daff";
+       ctx.fillRect(0, 0, LARGURA, ALTURA);
          bg.desenha(0, 0);
          
 
         ctx.fillStyle = "#fff";
         ctx.font = "50px Arial";
-        ctx.fillText(bloco.score, 30,  68,);            
+        ctx.fillText(bloco.score, 30,  68,);
+        ctx.fillText(bloco.vidas, 540, 68);            
 
         if (estadoAtual == estados.jogar) {
             ctx.fillStyle = "green";
