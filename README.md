@@ -1,4 +1,5 @@
 # 🎫 Descrição do Projeto 
+![Snake Game](https://raw.githubusercontent.com/HeberSilverio/emoji_jump-game_JavaScript/master/imagens/Game_JavaScript.PNG)
 
 Eu tive o interesse de começar este projeto quando assisti um vídeo do canal do [Felipe Alves](https://www.youtube.com/watch?v=MexDXt11Re8&list=PL1EkVGo1AQ0Hsqhvjm4khfp6innDjpj9J&index=8).
 
